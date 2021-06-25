@@ -9,7 +9,8 @@ author-email = "hannah.chou@student.ie.edu"
 description-file = "README.md"
 
 requires = [
-          "pandas"
+          "pandas",
+          # "flask", instead specify it in requirements.txt
           ]
           
 [tool.flit.entrypoints."console_scripts"]
