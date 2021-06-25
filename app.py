@@ -6,7 +6,10 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello world! Hey"
+    return {
+        "message": "Hello world! Hey",
+        "version": "0.1"  
+           }
 
 @app.route("/tokenize")
 def do_tokenize():
