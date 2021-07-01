@@ -1,4 +1,6 @@
 . #install current directory
 
-flask
+#flask
+voila
+ipywidgets
 
